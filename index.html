@@ -15,25 +15,25 @@
     <header class="header">
         <a href="#" class="logo">My Website</a>
         <nav class="navbar">
-            <a href="#">Home</a>
-            <a href="#">About Me</a>
-            <a href="#">Socials</a>
-            <a href="#">Contact Me</a>
+            <a href="#home">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#myworks">My Works</a>
+            <a href="#contactme">Contact Me</a>
 
         </nav>
     </header>
-    <section class="home">
+    <section id="home" class="home">
         <div class="home-content">
             <h1>Hello, I'm Christian</h1>
             <h3>Aspiring to be a future Software Engineer</h3>
             <p>Welcome to my Portfolio!</p>
-            <p>I am a striving Software Engineer learning the basics of programming</p>
+            <p></p>
             <p></p>
         </div>
         <div class="socials">
             <a href="https://www.facebook.com/christian.trocero.3"><i class='bx bxl-facebook' ></i></a>
             <a href=""><i class='bx bxl-messenger' ></i></a>
-            <a href="https://twitter.com/tsW56a36d84s"><i class='bx bxl-twitter' ></i></a>
+            <a id="about" href="https://twitter.com/tsW56a36d84s"><i class='bx bxl-twitter' ></i></a>
         </div>
         <div class="about-line">
             <h1 class="about-heading">About Me</h1>
@@ -67,8 +67,38 @@
         </div>
         <div class="about-skills">
             <h1>My Skills</h1>
+            <h2>- Computer Skills</h2>
+                <ul>
+                    <li>I can install a new Windows OS from scratch.</li>
+                    <li>I am very familiar with PC building.</li>
+                    <li>I am a PC enthusiast.</li>
+                </ul>
+            <h3>- Computer Programming</h3>
+                <ul>
+                    <li>The languages I know are HTML, CSS, JavaScript, Python, JavaScript, and C++  </li>
+                </ul>
+        </div>
+        <div class="about-occupation"> 
+            <h1>Occupation</h1>
+            <h2>I am currently living as a Senior Highschool Student in Laguna Colleges Of Business and Arts.</h2>
+        </div>
+        <div id="myworks" class="myworks-line">
+            <h1>My Works</h1>
+        </div>
+        <div class="worksimage">
+            <img src="snakegame.png" alt="Snake Game" width="300" height="300">
+            <h1>Snake Game using Python</h1>
+        </div>
+        <div id="contactme" class="contacts-line">
+            <h1>Contacts</h1>
+        </div>
+        <div class="contacts"> 
+            <h1><i class='bx bx-phone'></i> +63 9993654194</h1>
+            <h2><i class='bx bxl-gmail' ></i> christianrocero26@gmail.com</h2>
         </div>
     </section>
-    <script src="function.js"></script>   
+    <script src="function.js">
+        document.body.innerHTML = "test"
+    </script>   
 </body>
 </html>
